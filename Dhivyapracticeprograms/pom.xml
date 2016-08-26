@@ -4,4 +4,10 @@
   <artifactId>Dhivyapracticeprograms</artifactId>
   <version>0.0.1-SNAPSHOT</version>
   <packaging>pom</packaging>
+
+  <modules>
+  	<module>CollectionsAssignment</module>
+  	<module>ThreadAssignment</module>
+  	<module>ObjectcreationAssignment</module>
+  </modules>
 </project>
