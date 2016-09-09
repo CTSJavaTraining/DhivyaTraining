@@ -194,19 +194,20 @@ public class EmployeeDetails {
 
 	}
 
-	int b = 0;
+
 
 	public int BonusCalculation(String grade, int salary) {
-		if (grade.equals('A')) {
-			b = (8 * salary) / 100;
-		} else if(grade.equals('B')){
-			b = (int) ((6.5 * salary) / 100);
+		if (grade.equals('A')||grade.equals('a')) {
+			bonus = ((8 * salary) / 100);
+			System.out.println(bonus);
+		} else if(grade.equals('B')||grade.equals('b')){
+			bonus = (int) ((6.5 * salary) / 100);
 		}
 		else
 		{
 			
 		}
-		return b;
+		return bonus;
 
 	}
 
